@@ -355,10 +355,12 @@
 		C4BFE0121497C81E00A2E86A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
 				INFOPLIST_FILE = "RIISKata/RIISKata-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -366,10 +368,12 @@
 		C4BFE0131497C81E00A2E86A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
 				INFOPLIST_FILE = "RIISKata/RIISKata-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -427,6 +431,7 @@
 				C4BFE0131497C81E00A2E86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4BFE0141497C81E00A2E86A /* Build configuration list for PBXNativeTarget "RIISKataTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +440,7 @@
 				C4BFE0161497C81E00A2E86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
