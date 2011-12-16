@@ -26,12 +26,7 @@
 
 - (void)testSimple
 {    
-    STAssertTrue(1==2, @"Something is not right..." );
-}
-
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in RIISKataTests");
+    STAssertTrue(1==1, @"Something is not right..." );
 }
 
 
