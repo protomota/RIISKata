@@ -407,7 +407,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers/**";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -432,7 +432,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers/**";
 				WRAPPER_EXTENSION = octest;
 			};
