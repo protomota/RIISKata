@@ -6,8 +6,8 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import "KataTest.h"
 
-@interface RIISKataTests : SenTestCase
+@interface RIISKataTests : KataTest
 
 @end

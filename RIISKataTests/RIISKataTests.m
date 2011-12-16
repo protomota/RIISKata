@@ -24,9 +24,9 @@
     [super tearDown];
 }
 
-- (void)testMath
+- (void)testSimple
 {    
-    STAssertTrue((1+1)==2, @"Compiler isn't feeling well today :-(" );
+    STAssertTrue(1==2, @"Something is not right..." );
 }
 
 - (void)testExample

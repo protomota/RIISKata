@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4A0F0A2149BA6CE00625E3D /* KataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0F0A1149BA6CE00625E3D /* KataTest.m */; };
+		C4A0F0A6149BA7DD00625E3D /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A0F0A5149BA7DD00625E3D /* libOCMock.a */; };
 		C4BFDFE31497C81E00A2E86A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BFDFE21497C81E00A2E86A /* UIKit.framework */; };
 		C4BFDFE51497C81E00A2E86A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BFDFE41497C81E00A2E86A /* Foundation.framework */; };
 		C4BFDFE71497C81E00A2E86A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BFDFE61497C81E00A2E86A /* CoreGraphics.framework */; };
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4A0F0A0149BA6CE00625E3D /* KataTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KataTest.h; sourceTree = "<group>"; };
+		C4A0F0A1149BA6CE00625E3D /* KataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KataTest.m; sourceTree = "<group>"; };
+		C4A0F0A5149BA7DD00625E3D /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libraries/libOCMock.a; sourceTree = "<group>"; };
 		C4BFDFDE1497C81E00A2E86A /* RIISKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIISKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BFDFE21497C81E00A2E86A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4BFDFE41497C81E00A2E86A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A0F0A6149BA7DD00625E3D /* libOCMock.a in Frameworks */,
 				C4BFE0011497C81E00A2E86A /* SenTestingKit.framework in Frameworks */,
 				C4BFE0021497C81E00A2E86A /* UIKit.framework in Frameworks */,
 				C4BFE0031497C81E00A2E86A /* Foundation.framework in Frameworks */,
@@ -100,6 +106,7 @@
 		C4BFDFE11497C81E00A2E86A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4A0F0A5149BA7DD00625E3D /* libOCMock.a */,
 				C4BFDFE21497C81E00A2E86A /* UIKit.framework */,
 				C4BFDFE41497C81E00A2E86A /* Foundation.framework */,
 				C4BFDFE61497C81E00A2E86A /* CoreGraphics.framework */,
@@ -135,6 +142,8 @@
 		C4BFE0061497C81E00A2E86A /* RIISKataTests */ = {
 			isa = PBXGroup;
 			children = (
+				C4A0F0A0149BA6CE00625E3D /* KataTest.h */,
+				C4A0F0A1149BA6CE00625E3D /* KataTest.m */,
 				C4BFE00C1497C81E00A2E86A /* RIISKataTests.h */,
 				C4BFE00D1497C81E00A2E86A /* RIISKataTests.m */,
 				C4BFE0071497C81E00A2E86A /* Supporting Files */,
@@ -268,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4BFE00E1497C81E00A2E86A /* RIISKataTests.m in Sources */,
+				C4A0F0A2149BA6CE00625E3D /* KataTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,10 +399,16 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers/**";
 				INFOPLIST_FILE = "RIISKataTests/RIISKataTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -408,10 +424,16 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers/**";
 				INFOPLIST_FILE = "RIISKataTests/RIISKataTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
