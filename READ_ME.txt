@@ -6,3 +6,8 @@ Project can be found here: https://github.com/braddunlap/RIISKata
 
 2.) 
 
+
+
+
+
+Unit testing - clear values: TEST_HOST = "$(BUNDLE_LOADER)"; set to TEST_HOST = "";
