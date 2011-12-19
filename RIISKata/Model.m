@@ -11,7 +11,7 @@
 @implementation Model
 
 + (BOOL)validObject {
-    return NO;
+    return YES;
 }
 
 @end
