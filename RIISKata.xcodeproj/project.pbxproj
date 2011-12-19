@@ -421,7 +421,7 @@
 				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
 				INFOPLIST_FILE = "RIISKataTests/RIISKataTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -438,7 +438,7 @@
 				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
 				INFOPLIST_FILE = "RIISKataTests/RIISKataTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
