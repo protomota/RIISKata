@@ -6,10 +6,11 @@
 //  Copyright (c) 2011 RIIS. All rights reserved.
 //
 
-#import "FlipsideViewController.h"
+#import "SettingsViewController.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@interface MainViewController : UIViewController <SettingsViewControllerDelegate>
 
 - (IBAction)showInfo:(id)sender;
+- (IBAction)ground:(id)sender;
 
 @end

@@ -14,9 +14,9 @@
 		C40C7546149F97A100E2E22E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7545149F97A100E2E22E /* main.m */; };
 		C40C754A149F97A100E2E22E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7549149F97A100E2E22E /* AppDelegate.m */; };
 		C40C754D149F97A100E2E22E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C754C149F97A100E2E22E /* MainViewController.m */; };
-		C40C7550149F97A100E2E22E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C754F149F97A100E2E22E /* FlipsideViewController.m */; };
+		C40C7550149F97A100E2E22E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C754F149F97A100E2E22E /* SettingsViewController.m */; };
 		C40C7553149F97A100E2E22E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40C7551149F97A100E2E22E /* MainViewController.xib */; };
-		C40C7556149F97A100E2E22E /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40C7554149F97A100E2E22E /* FlipsideViewController.xib */; };
+		C40C7556149F97A100E2E22E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40C7554149F97A100E2E22E /* SettingsViewController.xib */; };
 		C40C755E149F97A100E2E22E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C755D149F97A100E2E22E /* SenTestingKit.framework */; };
 		C40C755F149F97A100E2E22E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C7539149F97A100E2E22E /* UIKit.framework */; };
 		C40C7560149F97A100E2E22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C753B149F97A100E2E22E /* Foundation.framework */; };
@@ -24,6 +24,9 @@
 		C40C756B149F97A100E2E22E /* RIISKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C756A149F97A100E2E22E /* RIISKataTests.m */; };
 		C40C7577149F987100E2E22E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
 		C40C757A149F98BB00E2E22E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
+		C46DA6C0149FC08C003A224B /* bigButton_DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */; };
+		C46DA6C1149FC08C003A224B /* bigButton_UP.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BE149FC08C003A224B /* bigButton_UP.png */; };
+		C4CCE4DD149FC0F5004BAA8E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CCE4DC149FC0F5004BAA8E /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +52,10 @@
 		C40C7549149F97A100E2E22E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C40C754B149F97A100E2E22E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C40C754C149F97A100E2E22E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C40C754E149F97A100E2E22E /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		C40C754F149F97A100E2E22E /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		C40C754E149F97A100E2E22E /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C40C754F149F97A100E2E22E /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		C40C7552149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
-		C40C7555149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		C40C7555149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SettingsViewController.xib; sourceTree = "<group>"; };
 		C40C755C149F97A100E2E22E /* RIISKataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RIISKataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40C755D149F97A100E2E22E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C40C7565149F97A100E2E22E /* RIISKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RIISKataTests-Info.plist"; sourceTree = "<group>"; };
@@ -61,6 +64,9 @@
 		C40C756A149F97A100E2E22E /* RIISKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIISKataTests.m; sourceTree = "<group>"; };
 		C40C7575149F987100E2E22E /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		C40C7576149F987100E2E22E /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_DOWN.png; sourceTree = "<group>"; };
+		C46DA6BE149FC08C003A224B /* bigButton_UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_UP.png; sourceTree = "<group>"; };
+		C4CCE4DC149FC0F5004BAA8E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,15 +126,16 @@
 		C40C753F149F97A100E2E22E /* RIISKata */ = {
 			isa = PBXGroup;
 			children = (
+				C46DA6B7149FC05B003A224B /* Resources */,
 				C40C7574149F985000E2E22E /* Model.m */,
 				C40C7548149F97A100E2E22E /* AppDelegate.h */,
 				C40C7549149F97A100E2E22E /* AppDelegate.m */,
 				C40C754B149F97A100E2E22E /* MainViewController.h */,
 				C40C754C149F97A100E2E22E /* MainViewController.m */,
 				C40C7551149F97A100E2E22E /* MainViewController.xib */,
-				C40C754E149F97A100E2E22E /* FlipsideViewController.h */,
-				C40C754F149F97A100E2E22E /* FlipsideViewController.m */,
-				C40C7554149F97A100E2E22E /* FlipsideViewController.xib */,
+				C40C754E149F97A100E2E22E /* SettingsViewController.h */,
+				C40C754F149F97A100E2E22E /* SettingsViewController.m */,
+				C40C7554149F97A100E2E22E /* SettingsViewController.xib */,
 				C40C7540149F97A100E2E22E /* Supporting Files */,
 			);
 			path = RIISKata;
@@ -171,6 +178,16 @@
 				C40C7576149F987100E2E22E /* Model.m */,
 			);
 			name = Model.m;
+			sourceTree = "<group>";
+		};
+		C46DA6B7149FC05B003A224B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4CCE4DC149FC0F5004BAA8E /* Default.png */,
+				C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */,
+				C46DA6BE149FC08C003A224B /* bigButton_UP.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +263,10 @@
 			files = (
 				C40C7544149F97A100E2E22E /* InfoPlist.strings in Resources */,
 				C40C7553149F97A100E2E22E /* MainViewController.xib in Resources */,
-				C40C7556149F97A100E2E22E /* FlipsideViewController.xib in Resources */,
+				C40C7556149F97A100E2E22E /* SettingsViewController.xib in Resources */,
+				C46DA6C0149FC08C003A224B /* bigButton_DOWN.png in Resources */,
+				C46DA6C1149FC08C003A224B /* bigButton_UP.png in Resources */,
+				C4CCE4DD149FC0F5004BAA8E /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +304,7 @@
 				C40C7546149F97A100E2E22E /* main.m in Sources */,
 				C40C754A149F97A100E2E22E /* AppDelegate.m in Sources */,
 				C40C754D149F97A100E2E22E /* MainViewController.m in Sources */,
-				C40C7550149F97A100E2E22E /* FlipsideViewController.m in Sources */,
+				C40C7550149F97A100E2E22E /* SettingsViewController.m in Sources */,
 				C40C7577149F987100E2E22E /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,12 +345,12 @@
 			name = MainViewController.xib;
 			sourceTree = "<group>";
 		};
-		C40C7554149F97A100E2E22E /* FlipsideViewController.xib */ = {
+		C40C7554149F97A100E2E22E /* SettingsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C40C7555149F97A100E2E22E /* en */,
 			);
-			name = FlipsideViewController.xib;
+			name = SettingsViewController.xib;
 			sourceTree = "<group>";
 		};
 		C40C7566149F97A100E2E22E /* InfoPlist.strings */ = {

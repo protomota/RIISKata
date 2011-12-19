@@ -6,14 +6,14 @@
 //  Copyright (c) 2011 RIIS. All rights reserved.
 //
 
-#import "FlipsideViewController.h"
+#import "SettingsViewController.h"
 
-@implementation FlipsideViewController
+@implementation SettingsViewController
 
 @synthesize delegate = _delegate;
 
 - (IBAction)done:(id)sender {
-    [self.delegate flipsideViewControllerDidFinish:self];
+    [self.delegate settingsViewControllerDidFinish:self];
 }
 
 @end
