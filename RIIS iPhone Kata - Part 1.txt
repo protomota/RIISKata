@@ -75,31 +75,6 @@ self.window.rootViewController = self.mainViewController;
     [self.delegate settingsViewControllerDidFinish:self];
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 8.) Go to MainViewController to set up as the delegate
 
 // ADD TO THE HEADER
