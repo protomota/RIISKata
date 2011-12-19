@@ -219,6 +219,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = RIIS;
 			};
 			buildConfigurationList = C40C752F149F97A100E2E22E /* Build configuration list for PBXProject "RIISKata" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -461,6 +462,7 @@
 				C40C7570149F97A100E2E22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C40C7571149F97A100E2E22E /* Build configuration list for PBXNativeTarget "RIISKataTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +471,7 @@
 				C40C7573149F97A100E2E22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -3,7 +3,7 @@
 //  RIISKataTests
 //
 //  Created by Brad Dunlap on 12/19/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 RIIS. All rights reserved.
 //
 
 #import "RIISKataTests.h"
@@ -11,17 +11,13 @@
 
 @implementation RIISKataTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
-    
     // Set-up code here.
 }
 
-- (void)tearDown
-{
+- (void)tearDown {
     // Tear-down code here.
-    
     [super tearDown];
 }
 
