@@ -22,8 +22,8 @@
 		C40C7560149F97A100E2E22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C753B149F97A100E2E22E /* Foundation.framework */; };
 		C40C7568149F97A100E2E22E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C40C7566149F97A100E2E22E /* InfoPlist.strings */; };
 		C40C756B149F97A100E2E22E /* RIISKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C756A149F97A100E2E22E /* RIISKataTests.m */; };
-		C40C7577149F987100E2E22E /* ColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* ColorModel.m */; };
-		C40C757A149F98BB00E2E22E /* ColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* ColorModel.m */; };
+		C40C7577149F987100E2E22E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
+		C40C757A149F98BB00E2E22E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		C40C7567149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C40C7569149F97A100E2E22E /* RIISKataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIISKataTests.h; sourceTree = "<group>"; };
 		C40C756A149F97A100E2E22E /* RIISKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIISKataTests.m; sourceTree = "<group>"; };
-		C40C7575149F987100E2E22E /* ColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorModel.h; sourceTree = "<group>"; };
-		C40C7576149F987100E2E22E /* ColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorModel.m; sourceTree = "<group>"; };
+		C40C7575149F987100E2E22E /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C40C7576149F987100E2E22E /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +167,8 @@
 		C40C7574149F985000E2E22E /* Model.m */ = {
 			isa = PBXGroup;
 			children = (
-				C40C7575149F987100E2E22E /* ColorModel.h */,
-				C40C7576149F987100E2E22E /* ColorModel.m */,
+				C40C7575149F987100E2E22E /* Model.h */,
+				C40C7576149F987100E2E22E /* Model.m */,
 			);
 			name = Model.m;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 				C40C754A149F97A100E2E22E /* AppDelegate.m in Sources */,
 				C40C754D149F97A100E2E22E /* MainViewController.m in Sources */,
 				C40C7550149F97A100E2E22E /* FlipsideViewController.m in Sources */,
-				C40C7577149F987100E2E22E /* ColorModel.m in Sources */,
+				C40C7577149F987100E2E22E /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40C756B149F97A100E2E22E /* RIISKataTests.m in Sources */,
-				C40C757A149F98BB00E2E22E /* ColorModel.m in Sources */,
+				C40C757A149F98BB00E2E22E /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

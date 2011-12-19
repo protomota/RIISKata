@@ -7,7 +7,7 @@
 //
 
 #import "RIISKataTests.h"
-#import "ColorModel.h"
+#import "Model.h"
 
 @implementation RIISKataTests
 
@@ -22,8 +22,8 @@
 }
 
 - (void)testForPurpleColor {
-    BOOL pass = [ColorModel testForPurpleColor];
-    STAssertTrue(pass, @"The the color HAS to be PURPLE!");
+    BOOL pass = [Model validObject];
+    STAssertTrue(pass, @"The Model Object is Invalid!");
 }
 
 @end
