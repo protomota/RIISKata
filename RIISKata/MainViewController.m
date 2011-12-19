@@ -12,13 +12,11 @@
 
 #pragma mark - Flipside View
 
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller
-{
+- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
     [self dismissModalViewControllerAnimated:YES];
 }
 
-- (IBAction)showInfo:(id)sender
-{    
+- (IBAction)showInfo:(id)sender {    
     FlipsideViewController *controller = [[[FlipsideViewController alloc] init] autorelease];
     controller.delegate = self;
     controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;

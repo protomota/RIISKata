@@ -10,7 +10,7 @@
 
 @implementation Model
 
-+ (BOOL)validObject {
++ (BOOL)validModel {
     return YES;
 }
 

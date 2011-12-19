@@ -12,8 +12,7 @@
 
 @synthesize delegate = _delegate;
 
-- (IBAction)done:(id)sender
-{
+- (IBAction)done:(id)sender {
     [self.delegate flipsideViewControllerDidFinish:self];
 }
 

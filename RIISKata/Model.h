@@ -10,6 +10,6 @@
 
 @interface Model : NSObject
 
-+ (BOOL)validObject;
++ (BOOL)validModel;
 
 @end

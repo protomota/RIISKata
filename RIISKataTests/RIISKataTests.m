@@ -21,9 +21,9 @@
     [super tearDown];
 }
 
-- (void)testForPurpleColor {
-    BOOL pass = [Model validObject];
-    STAssertTrue(pass, @"The Model Object is Invalid!");
+- (void)testForValidModel {
+    BOOL pass = [Model validModel];
+    STAssertTrue(pass, @"The Model is Invalid!");
 }
 
 @end
