@@ -2,11 +2,12 @@
 //  RIISKataTests.m
 //  RIISKataTests
 //
-//  Created by Brad Dunlap on 12/13/11.
+//  Created by Brad Dunlap on 12/19/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "RIISKataTests.h"
+#import "ColorModel.h"
 
 @implementation RIISKataTests
 
@@ -24,10 +25,9 @@
     [super tearDown];
 }
 
-- (void)testSimple
-{    
-    STAssertTrue(1==1, @"Something is not right..." );
+- (void)testForPurpleColor {
+    BOOL pass = [ColorModel testForPurpleColor];
+    STAssertTrue(pass, @"The the color HAS to be PURPLE!");
 }
-
 
 @end

@@ -1,14 +1,15 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  RIISKata
 //
-//  Created by Brad Dunlap on 12/13/11.
+//  Created by Brad Dunlap on 12/19/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@implementation ViewController
+@implementation MainViewController
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -55,6 +56,21 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+#pragma mark - Flipside View
+
+- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller
+{
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction)showInfo:(id)sender
+{    
+    FlipsideViewController *controller = [[[FlipsideViewController alloc] init] autorelease];
+    controller.delegate = self;
+    controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:controller animated:YES];
 }
 
 @end

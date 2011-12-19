@@ -2,18 +2,18 @@
 //  AppDelegate.h
 //  RIISKata
 //
-//  Created by Brad Dunlap on 12/13/11.
+//  Created by Brad Dunlap on 12/19/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class MainViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) MainViewController *mainViewController;
 
 @end

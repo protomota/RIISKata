@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TestObj : NSObject
+@interface ColorModel : NSObject
 
-+ (BOOL)testForTrue;
++ (BOOL)testForPurpleColor;
 
 @end
