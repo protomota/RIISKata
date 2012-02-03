@@ -10,6 +10,8 @@
 
 @implementation MainViewController
 
+@synthesize groundButton = groundButton_;
+
 #pragma mark - Flipside View
 
 - (void)settingsViewControllerDidFinish:(SettingsViewController *)controller {

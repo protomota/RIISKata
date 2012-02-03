@@ -8,7 +8,11 @@
 
 #import "SettingsViewController.h"
 
-@interface MainViewController : UIViewController <SettingsViewControllerDelegate>
+@interface MainViewController : UIViewController <SettingsViewControllerDelegate> {
+    UIButton *groundButton_;
+}
+
+@property (nonatomic, retain) IBOutlet UIButton *groundButton;
 
 - (IBAction)showInfo:(id)sender;
 - (IBAction)ground:(id)sender;

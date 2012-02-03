@@ -10,9 +10,20 @@
 
 #import "AppDelegate.h"
 
+#ifdef FRANK
+#include "FrankServer.h"
+static FrankServer *sFrankServer;
+#endif
+
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+        
+#ifdef FRANK
+        sFrankServer = [[FrankServer alloc] initWithDefaultBundle];
+        [sFrankServer startServer];
+#endif
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

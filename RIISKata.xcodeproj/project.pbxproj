@@ -26,6 +26,31 @@
 		C40C757A149F98BB00E2E22E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
 		C46DA6C0149FC08C003A224B /* bigButton_DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */; };
 		C46DA6C1149FC08C003A224B /* bigButton_UP.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BE149FC08C003A224B /* bigButton_UP.png */; };
+		C4850AA714DC2FED00BAEB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7545149F97A100E2E22E /* main.m */; };
+		C4850AA814DC2FED00BAEB52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7549149F97A100E2E22E /* AppDelegate.m */; };
+		C4850AA914DC2FED00BAEB52 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C754C149F97A100E2E22E /* MainViewController.m */; };
+		C4850AAA14DC2FED00BAEB52 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C754F149F97A100E2E22E /* SettingsViewController.m */; };
+		C4850AAB14DC2FED00BAEB52 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
+		C4850AAD14DC2FED00BAEB52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C7539149F97A100E2E22E /* UIKit.framework */; };
+		C4850AAE14DC2FED00BAEB52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C753B149F97A100E2E22E /* Foundation.framework */; };
+		C4850AAF14DC2FED00BAEB52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C753D149F97A100E2E22E /* CoreGraphics.framework */; };
+		C4850AB114DC2FED00BAEB52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C40C7542149F97A100E2E22E /* InfoPlist.strings */; };
+		C4850AB214DC2FED00BAEB52 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40C7551149F97A100E2E22E /* MainViewController.xib */; };
+		C4850AB314DC2FED00BAEB52 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40C7554149F97A100E2E22E /* SettingsViewController.xib */; };
+		C4850AB414DC2FED00BAEB52 /* bigButton_DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */; };
+		C4850AB514DC2FED00BAEB52 /* bigButton_UP.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BE149FC08C003A224B /* bigButton_UP.png */; };
+		C4850AB614DC2FED00BAEB52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CCE4DC149FC0F5004BAA8E /* Default.png */; };
+		C4850AC814DC30B000BAEB52 /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = C4850AC014DC30B000BAEB52 /* my_first.feature */; };
+		C4850AC914DC30B000BAEB52 /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = C4850AC214DC30B000BAEB52 /* launch_steps.rb */; };
+		C4850ACA14DC30B000BAEB52 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = C4850AC414DC30B000BAEB52 /* env.rb */; };
+		C4850ACB14DC30B000BAEB52 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4850AC514DC30B000BAEB52 /* frank_static_resources.bundle */; };
+		C4850ACC14DC30B000BAEB52 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4850AC614DC30B000BAEB52 /* libFrank.a */; };
+		C4850ACD14DC30B000BAEB52 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4850AC714DC30B000BAEB52 /* libShelley.a */; };
+		C4850ACF14DC30F900BAEB52 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4850ACE14DC30F900BAEB52 /* CFNetwork.framework */; };
+		C4850AD514DC414C00BAEB52 /* ground_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = C4850AD414DC414C00BAEB52 /* ground_steps.rb */; };
+		C4850AD914DC421300BAEB52 /* ground.feature in Resources */ = {isa = PBXBuildFile; fileRef = C4850AD814DC421300BAEB52 /* ground.feature */; };
+		C4850ADB14DC4DAF00BAEB52 /* info.feature in Resources */ = {isa = PBXBuildFile; fileRef = C4850ADA14DC4DAF00BAEB52 /* info.feature */; };
+		C4850ADD14DC4DD800BAEB52 /* info_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = C4850ADC14DC4DD800BAEB52 /* info_steps.rb */; };
 		C4CCE4DD149FC0F5004BAA8E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CCE4DC149FC0F5004BAA8E /* Default.png */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +91,19 @@
 		C40C7576149F987100E2E22E /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_DOWN.png; sourceTree = "<group>"; };
 		C46DA6BE149FC08C003A224B /* bigButton_UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_UP.png; sourceTree = "<group>"; };
+		C4850ABA14DC2FED00BAEB52 /* Frankified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frankified.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4850ABD14DC2FED00BAEB52 /* Frankified-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Frankified-Info.plist"; path = "/Users/bdunlap/Documents/Projects/GIT_PULL/RIISKata/Frankified-Info.plist"; sourceTree = "<absolute>"; };
+		C4850AC014DC30B000BAEB52 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		C4850AC214DC30B000BAEB52 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
+		C4850AC414DC30B000BAEB52 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		C4850AC514DC30B000BAEB52 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		C4850AC614DC30B000BAEB52 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		C4850AC714DC30B000BAEB52 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
+		C4850ACE14DC30F900BAEB52 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C4850AD414DC414C00BAEB52 /* ground_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ground_steps.rb; sourceTree = "<group>"; };
+		C4850AD814DC421300BAEB52 /* ground.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ground.feature; sourceTree = "<group>"; };
+		C4850ADA14DC4DAF00BAEB52 /* info.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = info.feature; sourceTree = "<group>"; };
+		C4850ADC14DC4DD800BAEB52 /* info_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = info_steps.rb; sourceTree = "<group>"; };
 		C4CCE4DC149FC0F5004BAA8E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,16 +128,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4850AAC14DC2FED00BAEB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4850ACF14DC30F900BAEB52 /* CFNetwork.framework in Frameworks */,
+				C4850AAD14DC2FED00BAEB52 /* UIKit.framework in Frameworks */,
+				C4850AAE14DC2FED00BAEB52 /* Foundation.framework in Frameworks */,
+				C4850AAF14DC2FED00BAEB52 /* CoreGraphics.framework in Frameworks */,
+				C4850ACC14DC30B000BAEB52 /* libFrank.a in Frameworks */,
+				C4850ACD14DC30B000BAEB52 /* libShelley.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C40C752A149F97A100E2E22E = {
 			isa = PBXGroup;
 			children = (
+				C4850ACE14DC30F900BAEB52 /* CFNetwork.framework */,
+				C4850ABE14DC30B000BAEB52 /* Frank */,
 				C40C753F149F97A100E2E22E /* RIISKata */,
 				C40C7563149F97A100E2E22E /* RIISKataTests */,
 				C40C7538149F97A100E2E22E /* Frameworks */,
 				C40C7536149F97A100E2E22E /* Products */,
+				C4850ABD14DC2FED00BAEB52 /* Frankified-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +162,7 @@
 			children = (
 				C40C7535149F97A100E2E22E /* RIISKata.app */,
 				C40C755C149F97A100E2E22E /* RIISKataTests.octest */,
+				C4850ABA14DC2FED00BAEB52 /* Frankified.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +245,47 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		C4850ABE14DC30B000BAEB52 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				C4850ABF14DC30B000BAEB52 /* features */,
+				C4850AC514DC30B000BAEB52 /* frank_static_resources.bundle */,
+				C4850AC614DC30B000BAEB52 /* libFrank.a */,
+				C4850AC714DC30B000BAEB52 /* libShelley.a */,
+			);
+			path = Frank;
+			sourceTree = "<group>";
+		};
+		C4850ABF14DC30B000BAEB52 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				C4850AC014DC30B000BAEB52 /* my_first.feature */,
+				C4850AD814DC421300BAEB52 /* ground.feature */,
+				C4850ADA14DC4DAF00BAEB52 /* info.feature */,
+				C4850AC114DC30B000BAEB52 /* step_definitions */,
+				C4850AC314DC30B000BAEB52 /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		C4850AC114DC30B000BAEB52 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				C4850AC214DC30B000BAEB52 /* launch_steps.rb */,
+				C4850AD414DC414C00BAEB52 /* ground_steps.rb */,
+				C4850ADC14DC4DD800BAEB52 /* info_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		C4850AC314DC30B000BAEB52 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				C4850AC414DC30B000BAEB52 /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,6 +325,23 @@
 			productReference = C40C755C149F97A100E2E22E /* RIISKataTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		C4850AA514DC2FED00BAEB52 /* Frankified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4850AB714DC2FED00BAEB52 /* Build configuration list for PBXNativeTarget "Frankified" */;
+			buildPhases = (
+				C4850AA614DC2FED00BAEB52 /* Sources */,
+				C4850AAC14DC2FED00BAEB52 /* Frameworks */,
+				C4850AB014DC2FED00BAEB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frankified;
+			productName = RIISKata;
+			productReference = C4850ABA14DC2FED00BAEB52 /* Frankified.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +365,7 @@
 			targets = (
 				C40C7534149F97A100E2E22E /* RIISKata */,
 				C40C755B149F97A100E2E22E /* RIISKataTests */,
+				C4850AA514DC2FED00BAEB52 /* Frankified */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +389,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40C7568149F97A100E2E22E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4850AB014DC2FED00BAEB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4850AB114DC2FED00BAEB52 /* InfoPlist.strings in Resources */,
+				C4850AB214DC2FED00BAEB52 /* MainViewController.xib in Resources */,
+				C4850AB314DC2FED00BAEB52 /* SettingsViewController.xib in Resources */,
+				C4850AB414DC2FED00BAEB52 /* bigButton_DOWN.png in Resources */,
+				C4850AB514DC2FED00BAEB52 /* bigButton_UP.png in Resources */,
+				C4850AB614DC2FED00BAEB52 /* Default.png in Resources */,
+				C4850AC814DC30B000BAEB52 /* my_first.feature in Resources */,
+				C4850AC914DC30B000BAEB52 /* launch_steps.rb in Resources */,
+				C4850ACA14DC30B000BAEB52 /* env.rb in Resources */,
+				C4850ACB14DC30B000BAEB52 /* frank_static_resources.bundle in Resources */,
+				C4850AD514DC414C00BAEB52 /* ground_steps.rb in Resources */,
+				C4850AD914DC421300BAEB52 /* ground.feature in Resources */,
+				C4850ADB14DC4DAF00BAEB52 /* info.feature in Resources */,
+				C4850ADD14DC4DD800BAEB52 /* info_steps.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +450,18 @@
 			files = (
 				C40C756B149F97A100E2E22E /* RIISKataTests.m in Sources */,
 				C40C757A149F98BB00E2E22E /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4850AA614DC2FED00BAEB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4850AA714DC2FED00BAEB52 /* main.m in Sources */,
+				C4850AA814DC2FED00BAEB52 /* AppDelegate.m in Sources */,
+				C4850AA914DC2FED00BAEB52 /* MainViewController.m in Sources */,
+				C4850AAA14DC2FED00BAEB52 /* SettingsViewController.m in Sources */,
+				C4850AAB14DC2FED00BAEB52 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +612,44 @@
 			};
 			name = Release;
 		};
+		C4850AB814DC2FED00BAEB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
+				INFOPLIST_FILE = "Frankified-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = Frankified;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4850AB914DC2FED00BAEB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
+				INFOPLIST_FILE = "Frankified-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = Frankified;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -491,6 +676,15 @@
 			buildConfigurations = (
 				C40C7572149F97A100E2E22E /* Debug */,
 				C40C7573149F97A100E2E22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4850AB714DC2FED00BAEB52 /* Build configuration list for PBXNativeTarget "Frankified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4850AB814DC2FED00BAEB52 /* Debug */,
+				C4850AB914DC2FED00BAEB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
